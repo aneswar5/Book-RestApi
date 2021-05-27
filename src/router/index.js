@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Authorbooks=require('../model/authbook');
+const Authorbooks=require('../model');
 
 
 router.get("/", async(req, res) => {

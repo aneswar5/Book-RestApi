@@ -1,6 +1,6 @@
 const express=require('express');
 const mongoose=require('mongoose');
-const author=require('./router/authorbooks');
+const author=require('./router');
 
 const url='mongodb://localhost/Authorbooks';
 
